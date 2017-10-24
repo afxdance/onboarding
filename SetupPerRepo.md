@@ -53,7 +53,7 @@ subl .
 ```
 
 
-### Rails projects: Install Ruby if need be
+### Rails projects: Install Ruby
 
 When you cd'd into the repo, you might have gotten a warning along the lines of:
 
@@ -62,7 +62,7 @@ Required ruby-2.2.2 is not installed.
 To install do: 'rvm install "ruby-2.2.2"'
 ```
 
-If this is the case, follow these instructions to install Ruby.
+If this is the case, follow the printed instructions to install Ruby.
 
 
 ### Rails projects: Install and use Bundler
