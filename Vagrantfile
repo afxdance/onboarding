@@ -70,9 +70,14 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", privileged: true, inline: <<-SHELL
     set -e
     apt-get update
+    apt-get install --yes curl git
 
     # Rails requires libpq-dev, a PostgreSQL developer library.
-    apt-get install --yes curl git libpq-dev
+    apt-get install --yes libpq-dev
+
+    # Rails requires a JS runtime for compiling JS assets.
+    # https://stackoverflow.com/a/6283074/782045
+    apt-get install --yes nodejs
   SHELL
   config.vm.provision "shell", privileged: false, inline: <<-SHELL
     set -e
