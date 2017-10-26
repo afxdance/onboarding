@@ -57,16 +57,6 @@ vagrant ssh
 **Important note!**
 Because Vagrant looks for a `Vagrantfile` in the current directory, Vagrant commands need to be run in the `onboarding` repo.
 
-
-# This starts the VM. Do this every time you restart your computer.
-vagrant up
-
-# This SSH's into the VM. Do this every time you open a new terminal.
-vagrant ssh
-
-
-
-
 Congratulations! You've made an Ubuntu virtual machine that is running inside your actual machine, and you're now at the terminal prompt for the VM. Everything you type here and software you install here runs inside Ubuntu.
 
 
