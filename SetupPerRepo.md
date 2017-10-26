@@ -3,7 +3,7 @@ You're here because you want to clone a repo. You can just `git clone` it, but t
 
 ### Get GitHub push access to the afxdance org
 
-_Note that you only need to do this once._
+You only need to do this once ever.
 
 Go to https://github.com/ and make sure you're logged in. Make an account if you need to.
 

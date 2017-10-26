@@ -62,6 +62,9 @@ Congratulations! You've made an Ubuntu virtual machine that is running inside yo
 
 ### SSH keys (Recommended)
 
+(The instructions below were adapted from: [here](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/) and [here](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/).)
+
+
 If you aren't already, make sure you're SSH'd into the VM:
 
 ```shell
@@ -69,15 +72,17 @@ vagrant ssh
 ```
 
 
-SSH keys help sites like GitHub know who you are -- it tells GitHub that you're logged in as you when you git clone/push/pull. You need to make a SSH key for your computer as follows:
+SSH keys help sites like GitHub know who you are -- it tells GitHub that you're logged in as you when you git clone/push/pull. You need to make a SSH key for your computer.
+
+First, run this command:
 
 ```shell
 ssh-keygen
 ```
 
-This starts a wizard that walks you through various options. You can use the defaults at each prompt by just pressing Enter.
+At each prompt, don't type any text, just press Enter -- this uses the default options.
 
-If you get a message that the file already exists, then you've already made a key before. Ctrl-C to exit the wizard, but continue to follow the instructions in the next paragraph.
+If you get an error that the file already exists, then you've already made a key before. Ctrl-C to exit `ssh-keygen`, but continue to follow the instructions below.
 
 The key has two parts -- a private key that should never be shared, and a public key that you should share with websites you want to use it with. Open the public key as follows, and copy all the contents of the file:
 
@@ -85,8 +90,7 @@ The key has two parts -- a private key that should never be shared, and a public
 cat ~/.ssh/id_rsa.pub
 ```
 
-Go to https://github.com/settings/keys and click New SSH key.
+Go to https://github.com/settings/keys and click New SSH key, and fill it out as follows:
 
-You can leave the title empty. Paste the contents of `~/.ssh/id_rsa.pub` into the Key box and save.
-
-(Taken from instructions at https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/ and https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/.)
+- Title: leave empty
+- Key: (paste contents of `~/.ssh/id_rsa.pub` in this box)

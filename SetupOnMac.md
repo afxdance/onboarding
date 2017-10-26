@@ -14,13 +14,13 @@ You should get a pop-up dialog to install some software. If not, don't worry, it
 
 ### Install Homebrew
 
+(The instructions below were adapted from: https://brew.sh/.)
+
 Homebrew is a package manager. It makes it easier to install the software you need below. Install Hombrew as follows:
 
 ```shell
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
-(Taken from the instructions at https://brew.sh/.)
-
 Say yes to the on-screen prompts. Note that when you type your password into the terminal, you won't see any feedback -- just type it and press Enter.
 
 **If you already have Homebrew installed, run the following to update it:**
@@ -38,7 +38,7 @@ RVM makes it easy to install a specific version of Ruby, which we need. Install 
 \curl -sSL https://get.rvm.io | bash -s stable
 ```
 
-(Taken from the instructions at https://rvm.io/.)
+(The instructions below were adapted from: https://rvm.io/.)
 
 
 ### Install PostgreSQL
@@ -103,6 +103,8 @@ mkdir -p ~/afxdance
 
 ### SSH keys (Recommended)
 
+(The instructions below were adapted from: [here](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/) and [here](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/).)
+
 SSH keys help sites like GitHub know who you are -- it tells GitHub that you're logged in as you when you git clone/push/pull. You need to make a SSH key for your computer as follows:
 
 ```shell
@@ -122,5 +124,3 @@ subl ~/.ssh/id_rsa.pub
 Go to https://github.com/settings/keys and click New SSH key.
 
 You can leave the title empty. Paste the contents of `~/.ssh/id_rsa.pub` into the Key box and save.
-
-(Taken from instructions at https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/ and https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/.)
