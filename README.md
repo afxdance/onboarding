@@ -1,16 +1,8 @@
-Welcome to AFX Tech!
-
-**Read carefully. There are TWO steps!**
-
-
-## Step 1. Set up computer
-
-- [Mac instructions](SetupOnMac.md)
-- [Windows instructions](SetupUsingVM.md)
+afxdance/onboarding
+===================
 
 
-## Step 2. Set up repository
+This repository contains:
 
-Do this for each repository you want to set up:
-
-- [Setting up a repo](SetupPerRepo.md)
+- Instructions for setting up your commputer and development environment.
+- A `Vagrantfile` Ubuntu virtual machine config.
