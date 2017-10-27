@@ -14,6 +14,11 @@ Go to https://github.com/settings/emails. Make sure the primary email is the one
 If you're not added to the afxdance GitHub organization yet, ask your mentor or project lead to add you. Give them your GitHub username.
 
 
+---
+
+Only if you're using a VM, ie. on Windows: For all the follwing steps, you need to be running commands inside the VM. Make sure you're `vagrant ssh`d in.
+
+
 ### cd into afxdance folder
 
 cd into wherever you created the afxdance directory:
