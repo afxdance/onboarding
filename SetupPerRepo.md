@@ -49,7 +49,7 @@ Then cd into the repo. If you cloned afxdance/auditions-app, then you need to `c
 Git needs to know who you are when you make commits. Set your Git identity as follows:
 
 ```shell
-git config user.name "Your Name Here"
+git config user.name "Your Real Name Here"
 git config user.email "youremailhere@example.com"
 ```
 
