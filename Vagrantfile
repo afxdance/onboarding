@@ -81,7 +81,7 @@ Vagrant.configure("2") do |config|
   SHELL
   config.vm.provision "shell", privileged: false, inline: <<-SHELL
     set -e
-    curl -sSL https://rvm.io/mpapis.asc | gpg2 --import -
+    curl -sSL https://rvm.io/mpapis.asc | gpg --import -
     curl -sSL https://get.rvm.io | bash -s $1
     rm -f -- ~/postinstall.sh
   SHELL
