@@ -1,5 +1,10 @@
 # How to: Use Git branches and GitHub pull requests
 
+| Note for VM users (ie. Windows)  |
+| :------------------------------- |
+| You can do all of these steps either inside or outside the VM. If you do it outside the VM, use [Git Bash](https://git-for-windows.github.io/) and make sure SSH keys are set up ([instructions](set-up-github-account.md)) outside the VM as well. |
+
+
 Git is a way to keep backups and track changes in a code project.
 
 Git has two basic concepts:
