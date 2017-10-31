@@ -23,6 +23,8 @@ Sublime Text 3 is a code editor.
 **How to install**
 
  1. Download and install from here: https://www.sublimetext.com/3
+ 
+**If you already have Sublime Text installed, go to Help > Check for Updates and make sure you are using the latest version. Older versions may not have all the features we need.**
 
 
 ### Git
