@@ -49,12 +49,19 @@ Now you can make changes to the code. Whenever you want to save a version of you
     Do this for each applicable file.
  4. Now you can make the commit.\
     `git commit`
- 5. Now you're in a window where you can type a commit message that describes your changes. Time to think of a commit title!
-     - How to write a good message: Use present tense, capitalize, no period at the end.
+ 5. Read this: Now you're in a window where you can type a commit message. A commit message looks like this:
+    ```
+    A short title, which briefly describes your changes
+    
+    Optionally additional info in the lines below if the commit is complex.
+    For example, you can describe the bug you fixed or the feature you made.
+    ```
+ 6. How to write a good commit title:
+     - Use present tense, capitalize, no period at the end.
      - Example: Refactor app/models/user.rb
      - Example: Add team switch/drop functionality
      - Example: Make code pass style guide
- 6. Type your commit title in the top line. If you want to include additional info, you can put it in the lines below.
+ 6. Type your commit message, save, and close.
      - If the window is inside the terminal: You're inside a program called Vim. Press `a`, type your commit message, press Escape, then type `:wq`.
      - If the window is a Sublime Text window, just type your commit message, save, and close the tab.
 
