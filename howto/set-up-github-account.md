@@ -10,9 +10,9 @@ GitHub has a feature where you can edit files directly from the web at github.co
 
  1. Go to https://github.com/.
  2. Make sure you're logged in, or make an account if you need to.
- 3. Go to https://github.com/settings/profile.\
+ 3. Go to https://github.com/settings/profile. \
     Make sure your real name is set correctly.
- 4. Go to https://github.com/settings/emails.\
+ 4. Go to https://github.com/settings/emails. \
     Make sure the primary email is the one you want to have associated with you (possibly publicly) when you make commits. If you're not sure which email to use, most people use their Berkeley email.
 
 
