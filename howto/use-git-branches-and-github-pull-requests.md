@@ -96,3 +96,9 @@ If you want your changes to be on the `master` branch, you need to merge your br
  8. Either you or the review and click "Merge pull request" to merge it into `master`!
 
 
+**What do do when you're done with your branch and pull request**
+
+ 1. On GitHub, delete the branch. (optional, because we can always mass delete them)
+ 2. On your computer: `git checkout master`
+ 3. On your computer: `git pull`
+ 
