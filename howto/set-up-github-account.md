@@ -42,3 +42,18 @@ SSH keys let sites like GitHub know who you are -- it tells GitHub that you're l
  7. Click New SSH key. Fill it out as follows:
      - Title: (leave empty)
 	 - Key: (paste contents of `~/.ssh/id_rsa.pub` in this box)
+
+
+### Some fun (entirely optional) things you might want to set up
+
+ 1. Add a profile picture! You can upload one either
+      - on GitHub: https://github.com/settings/profile
+      - or on Gravatar: https://en.gravatar.com \
+        Make sure you add the email you use with GitHub to Gravatar, and your profile picture should update in a few minutes.
+
+ 2. Your profile shows the organizations you are in:\
+    ![screen shot](https://user-images.githubusercontent.com/1570168/32304380-fb4e96e6-bf2b-11e7-9719-9d85392ee548.png)\
+    But, by default, this is only visible to other people in the same org. If you want this visible publicly, go here:\
+    github.com/orgs/afxdance/people?query=YOUR_USERNAME_HERE \
+    and change "Private" to "Public".\
+    (Instructions adapted from [here](https://help.github.com/articles/publicizing-or-hiding-organization-membership/).)
