@@ -36,3 +36,10 @@
  3. Wait a few seconds. If there are yellow marks that appear, then everything is working!
  4. The yellow marks are style guide violations. To see what's wrong, click one of the yellow things, and look at the status bar.
  5. The yellow circles in the gutter (near the line numbers) indicate that the line contains a warning. This can be helpful when you're quickly scrolling through lines.
+ 
+ 
+ **How to configure the look of SublimeLinter**
+ 
+ 1. Use ⇧⌘P (Mac) or Ctrl+Shift+P (Windows) to open the Sublime Command Palette.
+ 2. Open the Command Palette. Search for "SublimeLinter: Choose Mark Style". Click it
+ 3. Select how you want SublimeLinter to show you style guide violations in your code
