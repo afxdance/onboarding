@@ -22,18 +22,18 @@ When you want to add your own work, first make a **branch**.
 
 **How to make a branch**
 
- 1. Start by making sure you're on the `master` branch.\
+ 1. Only if you want to re-use a branch you've made before: You need to delete it first.\
+    `git branch -d your_branch_name`\
+    If you do have unmerged work in the branch, don't delete it, just make a new branch with another name.
+ 2. Start by making sure you're on the `master` branch.\
     `git checkout master`
- 2. Make sure `master` is up to date.\
+ 3. Make sure `master` is up to date.\
     `git pull`
- 3. Branch off `master`.\
+ 4. Branch off `master`.\
     `git branch your_branch_name`\
     You can technically name your your branch anything, but you should include your GitHub username in it, so that other people will know who is responsible for it. Examples: `git branch szhu` or `git branch szhu-refactor`
- 4. Switch to being on the `master` branch.\
+ 5. Switch to being on the `your_branch_name` branch.\
     `git checkout your_branch_name`
- 5. Only if you're re-using a branch you've made before:\
-    `git reset --hard master`\
-    NOTE: This command will destroy any unmerged changes on this branch. If your branch still has stuff on it, just make a new branch with another name, using the steps here.
 
 Great, now you're on your own branch!
 
