@@ -1,0 +1,8 @@
+* [Clone and set up a Github repo](clone-and-set-up-a-github-repo.md)
+* [Set up Atom](set-up-atom.md)
+* [Set up dev environment](set-up-dev-environment.md)
+* [Set up Github account](set-up-github-account.md)
+* [Set up Mac dev environment](set-up-mac-dev-environment.md)
+* [Set up Rubocop](set-up-rubocop.md)
+* [Set up VM dev environment](set-up-vm-dev-environment.md)
+* [Use Git branches and Github pull requests](use-git-branches-and-github-pull-requests.md)
