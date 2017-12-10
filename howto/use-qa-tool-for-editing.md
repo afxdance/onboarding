@@ -1,4 +1,4 @@
-How to log in, so you can edit pages using this tool.
+How to log in, so you can edit pages using this tool:
 
 1. Go to here: <https://github.com/settings/tokens>
 2. Click **Generate New Token**
