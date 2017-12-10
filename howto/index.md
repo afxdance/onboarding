@@ -4,8 +4,6 @@ This is an experiemental way to view onboarding documents. Just click a link to 
 
 If you have the sufficient permissions, you can also edit content directly from this tool as well. [Here's how.](use-qa-tool-for-editing.md)
 
-</fieldset>
-
 ---
 
 How to:
