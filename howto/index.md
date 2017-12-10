@@ -5,4 +5,4 @@
 * [Set up Mac dev environment](set-up-mac-dev-environment.md)
 * [Set up Rubocop](set-up-rubocop.md)
 * [Set up VM dev environment](set-up-vm-dev-environment.md)
-* [Use Git branches and Github pull requests](use-git-branches-and-github-pull-requests.md)
+* [Use Git branches and GitHub pull requests](use-git-branches-and-github-pull-requests.md)
