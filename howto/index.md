@@ -1,4 +1,4 @@
-### What is this tool? aaaaaaaaaaaaaaaaaaaa
+### What is this tool?
 
 This is an experiemental way to view onboarding documents. Just click a link to expand it inline.
 
