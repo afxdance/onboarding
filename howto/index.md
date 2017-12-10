@@ -1,5 +1,4 @@
-<fieldset>
-<legend>What is this tool?</legend>
+### What is this tool?
 
 This is an experiemental way to view onboarding documents. Just click a link to expand it inline.
 
