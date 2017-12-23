@@ -14,4 +14,3 @@ How to:
 * [Set up Github account](set-up-github-account.md)
 * [Set up Rubocop](set-up-rubocop.md)
 * [Use Git branches and GitHub pull requests](use-git-branches-and-github-pull-requests.md)
-* *Hi Sean*
