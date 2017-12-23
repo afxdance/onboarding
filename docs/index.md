@@ -1,1 +1,1 @@
-Content: [../howto/index.md]
+[Content](../howto/index.md)
